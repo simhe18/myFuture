@@ -10,14 +10,15 @@ st.write("#### Pre viac informácií KLIKNI NIŽŠIE 👇")
 #st.button("ZÍSKANÉ DÁTA")
 
 
-st.sidebar.write("Kód tejto webovej stránky:")
-st.sidebar.write("link")
-
 st.sidebar.write(" Moja bakalárska práca:")
 st.sidebar.write("link")
 
 st.sidebar.write(" Dotazník Google Forms:")
 st.sidebar.write("https://docs.google.com/forms/d/1KYRqHZtgQeU5wSXzi1nsgGdUhxtYfZ71QEBy3RtzL5c/viewform?edit_requested=true")
+
+st.sidebar.write(" Užitočné odkazy:")
+st.sidebar.write("https://www.trexima.sk/portfolio/aktivne-a-profesionalne-prepojenie-ucastnikov-trhu-prace/")
+st.sidebar.write("https://www.trexima.sk/portfolio/uplatnenie-absolventov-v-zamestnani/")
 
 if st.button("MOJE BUDÚCE POVOLANIE"):
     # Redirect to "/grafy" when the button is clicked
